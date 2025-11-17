@@ -1,24 +1,45 @@
-//
-//  ContentView.swift
-//  MyBookApp
-//
-//  Created by Irene Mordi on 11/11/25.
-//
-
 import SwiftUI
 
+// --- A. Home View (محتوای قابل اسکرول صفحه با عنوان بزرگ/Large) ---
+
+
+
+// --- C. ساختار نهایی (ContentView) ---
+// (این بخش تغییری نکرده است)
+
 struct ContentView: View {
+    @State private var selectedTab: String = "Home"
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            
+            Tab("Home", systemImage: "house") {
+                HomeView() // Using HomeView, which is defined below
+            }
+            
+           
+            Tab("Library", systemImage: "books.vertical.fill") {
+             
+            }
+            
+            
+            Tab("Book Store", systemImage: "suitcase.cart") {
+               
+            }
+            
+            
+            Tab("Audiobooks", systemImage: "headphones") {
+           
+            }
+            
+            
+            Tab(role: .search) {
+              
+            }
         }
-        .padding()
+        .tint(.black)
     }
 }
-
 #Preview {
     ContentView()
 }
