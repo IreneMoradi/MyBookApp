@@ -36,7 +36,7 @@ The implementation reflects the following findings from the technical analysis:
 
 1.  Clone the repository to your local machine:
     ```bash
-    git clone [Your Repository URL]
+    git clone [https://github.com/IreneMoradi/MyBookApp.git]
     ```
 2.  Open the `.xcodeproj` file in Xcode (version 14 or higher).
 3.  Select a modern iPhone simulator (e.g., iPhone 15 Pro).
@@ -44,7 +44,7 @@ The implementation reflects the following findings from the technical analysis:
 
 ### `## 6. Project Author`
 
-  * **Name:** [Your Name]
-  * **Course/Subject:** [Your Course Name]
-  * **Institution:** [Your University/Academy Name]
-  * **Presentation Date:** [Date of Presentation, e.g., November 2025]
+  * **Name:** [Irene Moradi]
+  * **Course/Subject:** [Challenge 2]
+  * **Institution:** [Apple Developer Academy]
+  * **Presentation Date:** [ November 2025]
